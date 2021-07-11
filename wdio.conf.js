@@ -1,7 +1,7 @@
 exports.config = {
     // Browserstack Config
-    user: process.env.BROWSERSTACK_USERNAME,
-    key: process.env.BROWSERSTACK_ACCESS_KEY,
+    // user: process.env.BROWSERSTACK_USERNAME,
+    // key: process.env.BROWSERSTACK_ACCESS_KEY,
 
 
     //
@@ -71,10 +71,10 @@ exports.config = {
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
     },
-    {
-       maxInstances: 5,
-       browserName: 'firefox',
-    },
+    // {
+    //    maxInstances: 5,
+    //    browserName: 'firefox',
+    // },
 
 ],
     //
@@ -125,7 +125,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     //services: ['selenium-standalone'],
-    services: ['browserstack'],
+    services: ['selenium-standalone'],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
