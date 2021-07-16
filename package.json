@@ -10,7 +10,8 @@
     "test:search": "wdio wdio.conf.js --spec test/specs/search.js",
     "test:watches": "wdio wdio.conf.js --spec test/specs/watches.js",
     "test:chai": "wdio wdio.conf.js --spec test/specs/chai.js",
-    "test:blaze": "wdio wdio.conf.js --spec test/specs/blaze.test.js"
+    "test:blaze": "wdio wdio.conf.js --spec test/specs/blaze.test.js",
+    "test:wait": "wdio wdio.conf.js --spec test/specs/waitForEnabled.js"
   },
   "keywords": [],
   "author": "",
